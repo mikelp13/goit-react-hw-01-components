@@ -1,0 +1,33 @@
+.statistics {
+  max-width: 290px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.title {
+  font-weight: 500;
+  padding: 20px;
+  color: #908a8a;
+  background-color: #fff;
+}
+
+.statList {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item {
+  width: calc(100% / 5);
+  padding: 5px;
+}
+
+.label {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  color: #fff;
+}
+.percentage {
+  color: #fff;
+}
